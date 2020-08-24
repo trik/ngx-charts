@@ -13,8 +13,7 @@ import { select } from 'd3-selection';
 import { roundedRect } from '../common/shape.helper';
 import { id } from '../utils/id';
 
-/* tslint:disable-next-line */
-import { transition } from 'd3-transition';
+import 'd3-transition';
 
 @Component({
   selector: 'g[ngx-charts-bar]',
